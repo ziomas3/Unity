@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fb9ed45540b97b47b0b2d4741944ccc, type: 3}
+  m_Name: NPC1
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "Witaj nieznany w\u0119drowcze! Mi\u0142o zobaczy\u0107 now\u0105 twarz w tych
+    terenach."
+  - Jestem doktor Martin, pracuje nad labiryntem z zagadkami fizycznymi.
+  - "Czy mo\u017Cesz mi pom\xF3c? Moj dom oraz park naukowy zaatakowali bandyci z
+    lasu. "
+  - "Wez ten miecz *podaje* (X) i rozpraw si\u0119 z nimi prosz\u0119, ja jestem za
+    s\u0142aby by si\u0119 nawet zamachn\u0105\u0107. W zamian poka\u017Ce Ci m\xF3j
+    labirynt."
+  - "Gdy si\u0119 tym zajmiesz przycisk na \u015Bcianie (E) otworzy Ci przejscie do
+    labiryntu."

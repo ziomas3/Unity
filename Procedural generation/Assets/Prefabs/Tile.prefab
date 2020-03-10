@@ -1,0 +1,323 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4384364438168556187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4384364438168556191}
+  - component: {fileID: 4384364438168556190}
+  - component: {fileID: 4384364438168556185}
+  - component: {fileID: 4384364438168556184}
+  - component: {fileID: 4384364438168556162}
+  - component: {fileID: 4384364438168556189}
+  - component: {fileID: 4384364438168556188}
+  - component: {fileID: 5046671428459941507}
+  m_Layer: 0
+  m_Name: Tile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4384364438168556191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4384364438168556187}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4384364438168556190
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4384364438168556187}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &4384364438168556185
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4384364438168556187}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &4384364438168556184
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4384364438168556187}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &4384364438168556162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4384364438168556187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb973eb7d06841744972ed92b0996b03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4384364438168556189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4384364438168556187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f2efb3415aee449a2b01b32269345b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4384364438168556188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4384364438168556187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5cb10dea2150e148995265e73dabbd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noiseGeneration: {fileID: 4384364438168556162}
+  textureBuilding: {fileID: 4384364438168556189}
+  meshFilter: {fileID: 4384364438168556190}
+  tileRenderer: {fileID: 4384364438168556185}
+  meshCollider: {fileID: 4384364438168556184}
+  levelScale: 10
+  heightTerrainTypes:
+  - index: 0
+    name: water
+    threshold: 0.4
+    color: {r: 0.08235294, g: 0.53634375, b: 0.7529412, a: 0}
+  - index: 1
+    name: grass
+    threshold: 0.6
+    color: {r: 0.2265347, g: 0.5283019, b: 0.032395884, a: 0}
+  - index: 2
+    name: mountain
+    threshold: 1
+    color: {r: 0.46226418, g: 0.1879048, b: 0.10684408, a: 0}
+  heightWaves:
+  - seed: 56182
+    frequency: 1
+    amplitude: 1
+  - seed: 67815
+    frequency: 0.5
+    amplitude: 2
+  - seed: 12515
+    frequency: 0.25
+    amplitude: 4
+  heightMultiplier: 10
+  heightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.3300305
+      value: -0.000035379548
+      inSlope: 0.0066171438
+      outSlope: 0.0066171438
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.0136966035
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.4000183
+      value: 0.00004514627
+      inSlope: -0.015793009
+      outSlope: -0.015793009
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.06385766
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.41058657
+      value: 0.0054971143
+      inSlope: 1.2706896
+      outSlope: 1.2706896
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.39171827
+      outWeight: 0.0061926413
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  heatTerrainTypes:
+  - index: 0
+    name: hotter
+    threshold: 0.25
+    color: {r: 0.9339623, g: 0.20554677, b: 0, a: 0}
+  - index: 1
+    name: hot
+    threshold: 0.5
+    color: {r: 0.9433962, g: 0.89433503, b: 0.04004982, a: 0}
+  - index: 2
+    name: cold
+    threshold: 0.75
+    color: {r: 0, g: 0.48312616, b: 1, a: 0}
+  - index: 3
+    name: colder
+    threshold: 1
+    color: {r: 1, g: 1, b: 1, a: 0}
+  heatWaves:
+  - seed: 4612
+    frequency: 1
+    amplitude: 1
+  - seed: 5125
+    frequency: 0.5
+    amplitude: 2
+  - seed: 78915
+    frequency: 0.25
+    amplitude: 4
+  moistureTerrainTypes:
+  - index: 0
+    name: dryer
+    threshold: 0.25
+    color: {r: 0.9622642, g: 0.52198297, b: 0.52198297, a: 0}
+  - index: 1
+    name: dry
+    threshold: 0.5
+    color: {r: 0.9811321, g: 0.8555753, b: 0.45817015, a: 0}
+  - index: 2
+    name: wet
+    threshold: 0.7
+    color: {r: 0.4978195, g: 0.72633696, b: 0.9339623, a: 0}
+  - index: 3
+    name: wetter
+    threshold: 1
+    color: {r: 0.16660735, g: 0.28830034, b: 0.9056604, a: 0}
+  moistureWaves:
+  - seed: 12151
+    frequency: 1
+    amplitude: 1
+  - seed: 4515
+    frequency: 0.5
+    amplitude: 2
+  - seed: 879158
+    frequency: 0.25
+    amplitude: 4
+  visualizationMode: 3
+  biomeBuilding: {fileID: 5046671428459941507}
+--- !u!114 &5046671428459941507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4384364438168556187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d9700efc775d52438ce8875af35d49b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  biomes:
+  - biomes:
+    - name: desert
+      color: {r: 0.9339623, g: 0.35406965, b: 0.24230155, a: 0}
+    - name: desert
+      color: {r: 0.9372549, g: 0.35686275, b: 0.24313726, a: 0}
+    - name: tundra
+      color: {r: 0.49127805, g: 0.8201009, b: 0.9056604, a: 0}
+    - name: tundra
+      color: {r: 0.49411765, g: 0.8235294, b: 0.90588236, a: 0}
+  - biomes:
+    - name: savanna
+      color: {r: 0.990566, g: 0.8844588, b: 0.5093005, a: 0}
+    - name: savanna
+      color: {r: 0.99215686, g: 0.8862745, b: 0.50980395, a: 0}
+    - name: boreal forest
+      color: {r: 0.5858443, g: 0.990566, b: 0.41585082, a: 0}
+    - name: borealforest
+      color: {r: 0.5882353, g: 0.99215686, b: 0.41960785, a: 0}
+  - biomes:
+    - name: tropical rainforest
+      color: {r: 0.18493931, g: 0.5, b: 0.08254716, a: 0}
+    - name: tropical rainforest
+      color: {r: 0.1882353, g: 0.5019608, b: 0.08627451, a: 0}
+    - name: boreal forest
+      color: {r: 0.5882353, g: 0.99215686, b: 0.41960785, a: 0}
+    - name: boreal forest
+      color: {r: 0.5882353, g: 0.99215686, b: 0.41960785, a: 0}
+  - biomes:
+    - name: tropical rainforest
+      color: {r: 0.18493931, g: 0.5, b: 0.08254716, a: 0}
+    - name: tropical rainforest
+      color: {r: 0.1882353, g: 0.5019608, b: 0.08627451, a: 0}
+    - name: boreal forest
+      color: {r: 0.5882353, g: 0.99215686, b: 0.41960785, a: 0}
+    - name: boreal forest
+      color: {r: 0.5882353, g: 0.99215686, b: 0.41960785, a: 0}
+  waterColor: {r: 0.08962262, g: 0.48882216, b: 1, a: 0}

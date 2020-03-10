@@ -1,0 +1,2 @@
+C:\Users\zioma\OneDrive\Documents\unity\Turn-based Battling\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\zioma\OneDrive\Documents\unity\Turn-based Battling\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

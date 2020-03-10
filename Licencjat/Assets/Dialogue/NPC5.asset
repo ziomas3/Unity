@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fb9ed45540b97b47b0b2d4741944ccc, type: 3}
+  m_Name: NPC5
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "Uda\u0142o Ci si\u0119! Pokona\u0142e\u015B moje wszystkie testy, jeste\u015B
+    zwyci\u0119\u017Cc\u0105!"
+  - "Dzi\u0119kuje, za ocalenie Domu oraz dobr\u0105 zabaw\u0119 w moim labiryncie,
+    mam nadziej\u0119, \u017Ce du\u017Co Ci\u0119 on nauczy\u0142 oraz zach\u0119ci\u0142
+    do samodzielnego zg\u0142\u0119biania praw fizyki, kt\xF3re nas otaczaj\u0105."

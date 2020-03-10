@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/zioma/OneDrive/Documents/unity/Unity 101 Intro/Assets/Scenes/SampleScene.unity
+  isLoaded: 1
+  isActive: 1
